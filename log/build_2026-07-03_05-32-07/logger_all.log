@@ -1,0 +1,222 @@
+[0.163s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.163s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ebfe7f63260>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ebfe7f63140>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ebfe7f63140>>)
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.205s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rashika/ir_line_follower_ws'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ir_line_follower) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ir_line_follower) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ir_line_follower) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ir_line_follower) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ir_line_follower) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(ir_line_follower) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ir_line_follower) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ir_line_follower) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ir_line_follower) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ir_line_follower) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ir_line_follower) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ir_line_follower) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ir_line_follower) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(ir_line_follower) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_line_follower) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_line_follower) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_line_follower) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_line_follower) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_line_follower) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_line_follower) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_line_follower) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_line_follower) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_line_follower) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ir_line_follower' with type 'ros.ament_python' and name 'ir_line_follower'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ros'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['cmake', 'python']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'cmake'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'python'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/models) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/models) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/models) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/models) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/models) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/models) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/models) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/models) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/models) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/models) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/models) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/models) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/models) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/models) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/models/ir_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/models/ir_robot) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/models/ir_robot) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/models/ir_robot) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/models/ir_robot) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/models/ir_robot) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/models/ir_robot) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/models/ir_robot) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/models/ir_robot) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/models/ir_robot) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/models/ir_robot) by extension 'cmake'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/models/ir_robot) by extension 'python'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/models/ir_robot) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/models/ir_robot) by extension 'python_setup_py'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/worlds) by extension 'python_setup_py'
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.276s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rashika/ir_line_follower_ws/install
+[0.277s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 320 installed packages in /opt/ros/jazzy
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ir_line_follower' build argument 'cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ir_line_follower' build argument 'cmake_target' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ir_line_follower' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ir_line_follower' build argument 'cmake_clean_cache' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ir_line_follower' build argument 'cmake_clean_first' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ir_line_follower' build argument 'cmake_force_configure' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ir_line_follower' build argument 'ament_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ir_line_follower' build argument 'catkin_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ir_line_follower' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.321s] DEBUG:colcon.colcon_core.verb:Building package 'ir_line_follower' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rashika/ir_line_follower_ws/build/ir_line_follower', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rashika/ir_line_follower_ws/install/ir_line_follower', 'merge_install': False, 'path': '/home/rashika/ir_line_follower_ws/src/ir_line_follower', 'symlink_install': False, 'test_result_base': None}
+[0.321s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.323s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rashika/ir_line_follower_ws/src/ir_line_follower' with build type 'ament_python'
+[0.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_line_follower', 'ament_prefix_path')
+[0.326s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/hook/ament_prefix_path.ps1'
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/hook/ament_prefix_path.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/hook/ament_prefix_path.sh'
+[0.331s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.616s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rashika/ir_line_follower_ws/src/ir_line_follower'
+[0.616s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.616s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.359s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: symlink_data, setopt, register, update_catalog, compile_catalog, build, build_clib, rotate, build_ext, install, install_lib, install_data, upload, sdist, init_catalog, editable_wheel, install_scripts, upload_docs, develop, build_scripts, build_py, bdist_dumb, bdist_rpm, install_headers, install_egg_info, alias, test, clean, easy_install, egg_info, extract_messages, bdist, check, bdist_wheel, saveopts, bdist_egg, dist_info
+[1.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rashika/ir_line_follower_ws/src/ir_line_follower': PYTHONPATH=/home/rashika/ir_line_follower_ws/build/ir_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ir_line_follower build --build-base /home/rashika/ir_line_follower_ws/build/ir_line_follower/build install --record /home/rashika/ir_line_follower_ws/build/ir_line_follower/install.log --single-version-externally-managed install_data
+[2.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rashika/ir_line_follower_ws/src/ir_line_follower' returned '0': PYTHONPATH=/home/rashika/ir_line_follower_ws/build/ir_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ir_line_follower build --build-base /home/rashika/ir_line_follower_ws/build/ir_line_follower/build install --record /home/rashika/ir_line_follower_ws/build/ir_line_follower/install.log --single-version-externally-managed install_data
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/home/rashika/ir_line_follower_ws/install/ir_line_follower' for CMake module files
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/home/rashika/ir_line_follower_ws/install/ir_line_follower' for CMake config files
+[2.093s] Level 1:colcon.colcon_core.environment:checking '/home/rashika/ir_line_follower_ws/install/ir_line_follower/lib'
+[2.093s] Level 1:colcon.colcon_core.environment:checking '/home/rashika/ir_line_follower_ws/install/ir_line_follower/bin'
+[2.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_line_follower', 'path')
+[2.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/hook/path.ps1'
+[2.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/hook/path.dsv'
+[2.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/hook/path.sh'
+[2.096s] Level 1:colcon.colcon_core.environment:checking '/home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/pkgconfig/ir_line_follower.pc'
+[2.096s] Level 1:colcon.colcon_core.environment:checking '/home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages'
+[2.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_line_follower', 'pythonpath')
+[2.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/hook/pythonpath.ps1'
+[2.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/hook/pythonpath.dsv'
+[2.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/hook/pythonpath.sh'
+[2.102s] Level 1:colcon.colcon_core.environment:checking '/home/rashika/ir_line_follower_ws/install/ir_line_follower/bin'
+[2.102s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_line_follower', 'pythonscriptspath')
+[2.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/hook/pythonscriptspath.ps1'
+[2.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/hook/pythonscriptspath.dsv'
+[2.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/hook/pythonscriptspath.sh'
+[2.105s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ir_line_follower)
+[2.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/package.ps1'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/package.dsv'
+[2.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/package.sh'
+[2.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/package.bash'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/package.zsh'
+[2.111s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rashika/ir_line_follower_ws/install/ir_line_follower/share/colcon-core/packages/ir_line_follower)
+[2.112s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.112s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.112s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.112s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.144s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.149s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.149s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.149s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.151s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.151s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.152s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rashika/ir_line_follower_ws/install/local_setup.ps1'
+[2.153s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rashika/ir_line_follower_ws/install/_local_setup_util_ps1.py'
+[2.154s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rashika/ir_line_follower_ws/install/setup.ps1'
+[2.156s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rashika/ir_line_follower_ws/install/local_setup.sh'
+[2.157s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rashika/ir_line_follower_ws/install/_local_setup_util_sh.py'
+[2.157s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rashika/ir_line_follower_ws/install/setup.sh'
+[2.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rashika/ir_line_follower_ws/install/local_setup.bash'
+[2.159s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rashika/ir_line_follower_ws/install/setup.bash'
+[2.161s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rashika/ir_line_follower_ws/install/local_setup.zsh'
+[2.163s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rashika/ir_line_follower_ws/install/setup.zsh'

@@ -1,0 +1,19 @@
+[1.244s] Invoking command in '/home/rashika/ir_line_follower_ws/build/ir_line_follower': PYTHONPATH=/home/rashika/ir_line_follower_ws/build/ir_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rashika/ir_line_follower_ws/build/ir_line_follower/build --no-deps symlink_data
+[1.568s] running develop
+[1.696s] running egg_info
+[1.709s] writing ir_line_follower.egg-info/PKG-INFO
+[1.710s] writing dependency_links to ir_line_follower.egg-info/dependency_links.txt
+[1.710s] writing entry points to ir_line_follower.egg-info/entry_points.txt
+[1.710s] writing requirements to ir_line_follower.egg-info/requires.txt
+[1.710s] writing top-level names to ir_line_follower.egg-info/top_level.txt
+[1.742s] reading manifest file 'ir_line_follower.egg-info/SOURCES.txt'
+[1.744s] writing manifest file 'ir_line_follower.egg-info/SOURCES.txt'
+[1.758s] running build_ext
+[1.759s] Creating /home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages/ir-line-follower.egg-link (link to .)
+[1.759s] Installing ir_controller_node script to /home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/ir_line_follower
+[1.759s] Installing ir_sensor_node script to /home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/ir_line_follower
+[1.760s] 
+[1.760s] Installed /home/rashika/ir_line_follower_ws/build/ir_line_follower
+[1.760s] running symlink_data
+[1.760s] symbolically linking /home/rashika/ir_line_follower_ws/build/ir_line_follower/launch/ir_line_follower.launch.py -> /home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/launch
+[1.801s] Invoked command in '/home/rashika/ir_line_follower_ws/build/ir_line_follower' returned '0': PYTHONPATH=/home/rashika/ir_line_follower_ws/build/ir_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rashika/ir_line_follower_ws/build/ir_line_follower/build --no-deps symlink_data

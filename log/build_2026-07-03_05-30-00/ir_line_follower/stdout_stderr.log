@@ -1,0 +1,47 @@
+running egg_info
+writing ../../build/ir_line_follower/ir_line_follower.egg-info/PKG-INFO
+writing dependency_links to ../../build/ir_line_follower/ir_line_follower.egg-info/dependency_links.txt
+writing entry points to ../../build/ir_line_follower/ir_line_follower.egg-info/entry_points.txt
+writing requirements to ../../build/ir_line_follower/ir_line_follower.egg-info/requires.txt
+writing top-level names to ../../build/ir_line_follower/ir_line_follower.egg-info/top_level.txt
+reading manifest file '../../build/ir_line_follower/ir_line_follower.egg-info/SOURCES.txt'
+writing manifest file '../../build/ir_line_follower/ir_line_follower.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rashika/ir_line_follower_ws/build/ir_line_follower/build
+creating /home/rashika/ir_line_follower_ws/build/ir_line_follower/build/lib
+creating /home/rashika/ir_line_follower_ws/build/ir_line_follower/build/lib/ir_line_follower
+copying ir_line_follower/ir_controller_node.py -> /home/rashika/ir_line_follower_ws/build/ir_line_follower/build/lib/ir_line_follower
+copying ir_line_follower/ir_sensor_node.py -> /home/rashika/ir_line_follower_ws/build/ir_line_follower/build/lib/ir_line_follower
+copying ir_line_follower/__init__.py -> /home/rashika/ir_line_follower_ws/build/ir_line_follower/build/lib/ir_line_follower
+running install
+running install_lib
+creating /home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages/ir_line_follower
+copying /home/rashika/ir_line_follower_ws/build/ir_line_follower/build/lib/ir_line_follower/ir_controller_node.py -> /home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages/ir_line_follower
+copying /home/rashika/ir_line_follower_ws/build/ir_line_follower/build/lib/ir_line_follower/ir_sensor_node.py -> /home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages/ir_line_follower
+copying /home/rashika/ir_line_follower_ws/build/ir_line_follower/build/lib/ir_line_follower/__init__.py -> /home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages/ir_line_follower
+byte-compiling /home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages/ir_line_follower/ir_controller_node.py to ir_controller_node.cpython-312.pyc
+byte-compiling /home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages/ir_line_follower/ir_sensor_node.py to ir_sensor_node.cpython-312.pyc
+byte-compiling /home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages/ir_line_follower/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ament_index
+creating /home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ament_index/resource_index
+creating /home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ament_index/resource_index/packages
+copying resource/ir_line_follower -> /home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ament_index/resource_index/packages
+copying package.xml -> /home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower
+creating /home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/launch
+copying ../launch/ir line follower.launch.py -> /home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/launch
+creating /home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/worlds
+copying ../worlds/ir_words.sdf -> /home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/worlds
+creating /home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/config
+copying ../config/bridge.yaml -> /home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/config
+creating /home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/models
+creating /home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/models/ir_robot
+copying ../models/ir_robot/model.sdf -> /home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/models/ir_robot
+copying ../models/ir_robot/model.config -> /home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/models/ir_robot
+running install_egg_info
+Copying ../../build/ir_line_follower/ir_line_follower.egg-info to /home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages/ir_line_follower-0.1.0-py3.12.egg-info
+running install_scripts
+Installing ir_controller_node script to /home/rashika/ir_line_follower_ws/install/ir_line_follower/bin
+Installing ir_sensor_node script to /home/rashika/ir_line_follower_ws/install/ir_line_follower/bin
+writing list of installed files to '/home/rashika/ir_line_follower_ws/build/ir_line_follower/install.log'

@@ -1,0 +1,42 @@
+[0.000000] (-) TimerEvent: {}
+[0.000798] (ir_line_follower) JobQueued: {'identifier': 'ir_line_follower', 'dependencies': OrderedDict()}
+[0.001040] (ir_line_follower) JobStarted: {'identifier': 'ir_line_follower'}
+[0.095330] (-) TimerEvent: {}
+[0.198973] (-) TimerEvent: {}
+[0.299220] (-) TimerEvent: {}
+[0.400359] (-) TimerEvent: {}
+[0.500769] (-) TimerEvent: {}
+[0.601077] (-) TimerEvent: {}
+[0.701358] (-) TimerEvent: {}
+[0.801736] (-) TimerEvent: {}
+[0.902076] (-) TimerEvent: {}
+[1.002401] (-) TimerEvent: {}
+[1.102735] (-) TimerEvent: {}
+[1.203312] (-) TimerEvent: {}
+[1.242546] (ir_line_follower) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/rashika/ir_line_follower_ws/build/ir_line_follower/build', '--no-deps', 'symlink_data'], 'cwd': '/home/rashika/ir_line_follower_ws/build/ir_line_follower', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/mnt/c/Users/rashi/AppData/Local/Programs/Microsoft VS Code', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'CODEX_CI': '1', 'USER': 'rashika', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/rashika/.vscode-server/bin/4fe60c8b1cdac1c4c174f2fb180d0d758272d713/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'VSCODE_WSL_EXT_LOCATION': '/mnt/c/Users/rashi/.vscode/extensions/ms-vscode-remote.remote-wsl-0.104.3', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'DEBUG': 'release', 'SHLVL': '0', 'HOME': '/home/rashika', 'VSCODE_RECONNECTION_GRACE_TIME': '10800000', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-0ee42ad6-1c15-4884-a48a-afca52c39cb7.sock', 'PAGER': 'cat', 'LC_CTYPE': 'C.UTF-8', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': '', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'LOGNAME': 'rashika', 'NAME': 'LAPTOP-SR8G08T0', 'WSL_INTEROP': '/run/WSL/426_interop', 'VSCODE_HANDLES_SIGPIPE': 'true', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'RUST_LOG': 'warn', 'TERM': 'dumb', 'PATH': '/home/rashika/.local/bin:/home/rashika/.codex/tmp/arg0/codex-arg020H7vC:/home/rashika/.vscode-server/bin/4fe60c8b1cdac1c4c174f2fb180d0d758272d713/bin/remote-cli:/home/rashika/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/rashi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rashi/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/rashika/.vscode-server/extensions/openai.chatgpt-26.623.101652-linux-x64/bin/linux-x86_64', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'C.UTF-8', 'GH_PAGER': 'cat', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_SERVER_TAR': '/mnt/c/Users/rashi/vscode-remote-wsl/stable/4fe60c8b1cdac1c4c174f2fb180d0d758272d713/vscode-server-stable-linux-x64.tar.gz', 'CODEX_THREAD_ID': '019f2b40-7024-7480-ab35-5e6e328de0c1', 'GIT_PAGER': 'cat', 'PWD': '/home/rashika/ir_line_follower_ws/build/ir_line_follower', 'LC_ALL': 'C.UTF-8', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up', 'PYTHONPATH': '/home/rashika/ir_line_follower_ws/build/ir_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages:'}, 'shell': False}
+[1.303545] (-) TimerEvent: {}
+[1.404094] (-) TimerEvent: {}
+[1.504444] (-) TimerEvent: {}
+[1.568962] (ir_line_follower) StdoutLine: {'line': b'running develop\n'}
+[1.604590] (-) TimerEvent: {}
+[1.696542] (ir_line_follower) StdoutLine: {'line': b'running egg_info\n'}
+[1.704753] (-) TimerEvent: {}
+[1.709989] (ir_line_follower) StdoutLine: {'line': b'writing ir_line_follower.egg-info/PKG-INFO\n'}
+[1.710678] (ir_line_follower) StdoutLine: {'line': b'writing dependency_links to ir_line_follower.egg-info/dependency_links.txt\n'}
+[1.711007] (ir_line_follower) StdoutLine: {'line': b'writing entry points to ir_line_follower.egg-info/entry_points.txt\n'}
+[1.711432] (ir_line_follower) StdoutLine: {'line': b'writing requirements to ir_line_follower.egg-info/requires.txt\n'}
+[1.711580] (ir_line_follower) StdoutLine: {'line': b'writing top-level names to ir_line_follower.egg-info/top_level.txt\n'}
+[1.743059] (ir_line_follower) StdoutLine: {'line': b"reading manifest file 'ir_line_follower.egg-info/SOURCES.txt'\n"}
+[1.744901] (ir_line_follower) StdoutLine: {'line': b"writing manifest file 'ir_line_follower.egg-info/SOURCES.txt'\n"}
+[1.757311] (ir_line_follower) StdoutLine: {'line': b'running build_ext\n'}
+[1.759641] (ir_line_follower) StdoutLine: {'line': b'Creating /home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages/ir-line-follower.egg-link (link to .)\n'}
+[1.760277] (ir_line_follower) StdoutLine: {'line': b'Installing ir_controller_node script to /home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/ir_line_follower\n'}
+[1.760469] (ir_line_follower) StdoutLine: {'line': b'Installing ir_sensor_node script to /home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/ir_line_follower\n'}
+[1.760598] (ir_line_follower) StdoutLine: {'line': b'\n'}
+[1.760738] (ir_line_follower) StdoutLine: {'line': b'Installed /home/rashika/ir_line_follower_ws/build/ir_line_follower\n'}
+[1.760856] (ir_line_follower) StdoutLine: {'line': b'running symlink_data\n'}
+[1.760975] (ir_line_follower) StdoutLine: {'line': b'symbolically linking /home/rashika/ir_line_follower_ws/build/ir_line_follower/launch/ir_line_follower.launch.py -> /home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/launch\n'}
+[1.801371] (ir_line_follower) CommandEnded: {'returncode': 0}
+[1.805050] (-) TimerEvent: {}
+[1.826760] (ir_line_follower) JobEnded: {'identifier': 'ir_line_follower', 'rc': 0}
+[1.827920] (-) EventReactorShutdown: {}

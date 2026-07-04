@@ -1,0 +1,1 @@
+error: [Errno 17] File exists: '/home/rashika/ir_line_follower_ws/build/ir_line_follower/models/ir_robot/model.sdf' -> '/home/rashika/ir_line_follower_ws/install/ir_line_follower/share/ir_line_follower/models/ir_robot/model.sdf'

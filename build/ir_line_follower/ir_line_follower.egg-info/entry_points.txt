@@ -1,0 +1,3 @@
+[console_scripts]
+ir_controller_node = ir_line_follower.ir_controller_node:main
+ir_sensor_node = ir_line_follower.ir_sensor_node:main

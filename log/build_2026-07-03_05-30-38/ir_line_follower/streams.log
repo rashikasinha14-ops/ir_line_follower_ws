@@ -1,0 +1,22 @@
+[1.044s] Invoking command in '/home/rashika/ir_line_follower_ws/src/ir_line_follower': PYTHONPATH=/home/rashika/ir_line_follower_ws/build/ir_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ir_line_follower build --build-base /home/rashika/ir_line_follower_ws/build/ir_line_follower/build install --record /home/rashika/ir_line_follower_ws/build/ir_line_follower/install.log --single-version-externally-managed install_data
+[1.360s] running egg_info
+[1.380s] writing ../../build/ir_line_follower/ir_line_follower.egg-info/PKG-INFO
+[1.382s] writing dependency_links to ../../build/ir_line_follower/ir_line_follower.egg-info/dependency_links.txt
+[1.382s] writing entry points to ../../build/ir_line_follower/ir_line_follower.egg-info/entry_points.txt
+[1.383s] writing requirements to ../../build/ir_line_follower/ir_line_follower.egg-info/requires.txt
+[1.383s] writing top-level names to ../../build/ir_line_follower/ir_line_follower.egg-info/top_level.txt
+[1.444s] reading manifest file '../../build/ir_line_follower/ir_line_follower.egg-info/SOURCES.txt'
+[1.446s] writing manifest file '../../build/ir_line_follower/ir_line_follower.egg-info/SOURCES.txt'
+[1.447s] running build
+[1.447s] running build_py
+[1.448s] running install
+[1.455s] running install_lib
+[1.476s] running install_data
+[1.477s] running install_egg_info
+[1.497s] removing '/home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages/ir_line_follower-0.1.0-py3.12.egg-info' (and everything under it)
+[1.498s] Copying ../../build/ir_line_follower/ir_line_follower.egg-info to /home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages/ir_line_follower-0.1.0-py3.12.egg-info
+[1.499s] running install_scripts
+[1.651s] Installing ir_controller_node script to /home/rashika/ir_line_follower_ws/install/ir_line_follower/bin
+[1.651s] Installing ir_sensor_node script to /home/rashika/ir_line_follower_ws/install/ir_line_follower/bin
+[1.652s] writing list of installed files to '/home/rashika/ir_line_follower_ws/build/ir_line_follower/install.log'
+[1.688s] Invoked command in '/home/rashika/ir_line_follower_ws/src/ir_line_follower' returned '0': PYTHONPATH=/home/rashika/ir_line_follower_ws/build/ir_line_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rashika/ir_line_follower_ws/install/ir_line_follower/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ir_line_follower build --build-base /home/rashika/ir_line_follower_ws/build/ir_line_follower/build install --record /home/rashika/ir_line_follower_ws/build/ir_line_follower/install.log --single-version-externally-managed install_data

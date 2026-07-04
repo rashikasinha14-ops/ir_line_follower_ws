@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build",
+      "type": "shell",
+      "command": "source /opt/ros/jazzy/setup.bash && colcon build --symlink-install",
+      "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "label": "Launch",
+      "type": "shell",
+      "command": "source /opt/ros/jazzy/setup.bash && source install/setup.bash && ros2 launch ir_line_follower ir_line_follower.launch.py"
+    },
+    {
+      "label": "Echo IR Sensors",
+      "type": "shell",
+      "command": "source /opt/ros/jazzy/setup.bash && source install/setup.bash && ros2 topic echo /ir_sensors"
+    }
+  ]
+}

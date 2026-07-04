@@ -1,0 +1,6 @@
+{
+  "python.defaultInterpreterPath": "/usr/bin/python3",
+  "ros.distro": "jazzy",
+  "files.associations": { "*.sdf": "xml" },
+  "terminal.integrated.defaultProfile.linux": "bash"
+}
